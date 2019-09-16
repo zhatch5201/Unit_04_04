@@ -10,7 +10,6 @@
 
 */
 
-
 /* Structural Styles */
 
 body {
@@ -41,18 +40,44 @@ body > section#rightcol {
 
 footer {
 	clear: both;
+	text-align: center;
 }
 
-address, article, aside, blockquote, body, cite, 
-div, dl, dt, dd, em, figcaption, figure, footer, 
-h1, h2, h3, h4, h5, h6, header, html, img, 
-li, main, nav, ol, p, section, span, ul {
-
-   -webkit-box-sizing: border-box;
-   -moz-box-sizing: border-box;
-   box-sizing: border-box;  
+address,
+article,
+aside,
+blockquote,
+body,
+cite,
+div,
+dl,
+dt,
+dd,
+em,
+figcaption,
+figure,
+footer,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+html,
+img,
+li,
+main,
+nav,
+ol,
+p,
+section,
+span,
+ul {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
 }
-
 
 /* Header Navigation */
 
@@ -76,7 +101,6 @@ header > nav a {
 	width: 100%;
 }
 
-
 /* Section Layout */
 
 section#leftcol aside {
@@ -87,10 +111,7 @@ section#leftcol aside {
 	margin-bottom: 20px;
 }
 
-
 section#leftcol img {
 	width: 100%;
 	display: block;
 }
-
-

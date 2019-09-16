@@ -1,0 +1,129 @@
+﻿/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+   Tutorial 2
+   Case Problem 4
+   
+   Great Lakescape Lodge Style Sheet
+   Author: 
+   Date:   
+   
+   Filename: lake_styles.css
+
+*/
+@charset "utf-8";
+@import "lake_layout.css";
+@font-face {
+	font-family: champ;
+	src: url(cac_champagne.ttf) format('ttf'), url(cac_champagne.woff) format('woff');
+}
+@font-face {
+	font-family: dob;
+	src: url(DobkinPlain.ttf) format('ttf'), url(DobkinPlain.woff) format('woff');
+}
+
+/*Nav Styles*/
+a[href^="#"]:link {
+	text-decoration: none;
+	color: white;
+}
+nav {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	line-height: 18px;
+}
+nav.navbar {
+	background-color: rgba(178, 26, 190, 0.7);
+	color: #ffffff;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+nav.navbar > ul > li.list-item > a {
+	color: white;
+	font-size: 1.3em;
+}
+nav.navbar ul > li.list-item > a:hover {
+	color: rgba(127, 23, 134, 0.5);
+}
+.list-item {
+	list-style-type: none;
+}
+/*Section Styles */
+html {
+	background-color: sandybrown;
+}
+body {
+	background-color: violet;
+}
+/*Left Section */
+section#leftcol > h1 {
+	font-family: champ, cursive, sans-serif;
+	font-size: 4em;
+	padding: 2px, 3px, 2px, 3px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+section#leftcol {
+	background-color: white;
+	padding-left: 20px;
+	font-size: 1.2em;
+}
+/*Right Section */
+section#rightcol > nav > h2 {
+	font-size: 3.0em;
+	font-family: champ, cursive, sans-serif;
+	line-height: 12px;
+}
+section#rightcol > nav > ul > li.list-item {
+	text-align: left;
+}
+/*Some Blockquote */
+blockquote {
+	font-size: 1.4em;
+	color: rgb(71, 71, 71);
+	max-width: 100%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+blockquote {
+	quotes: "“" "”" "‘" "’";
+}
+blockquote:before {
+	content: open-quote;
+}
+blockquote:after {
+	content: close-quote;
+	font-family: dob;
+}
+/*Asides */
+aside#notesAside {
+	background-color: rgba(255, 0, 0, 0.5);
+	text-align: center;
+}
+aside#notesAside > ul > li.list-item {
+	list-style-type: disc;
+	text-align: left;
+}
+
+aside#upAside > h1 {
+	font-size: 1.4em;
+}
+aside#upAside > h2 {
+	font-size: 1.2em;
+}
+aside#upAside {
+	background-color: rgba(255, 100, 0, 0.5);
+	text-align: center;
+}
+aside#upAside > ul > li.list-item {
+	list-style-type: disc;
+	text-align: left;
+}
+/*Footer Styles */
+footer {
+	background-color: rgb(77, 75, 75);
+	color: white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
